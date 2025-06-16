@@ -7,6 +7,13 @@ const sumaNotas = notasFinales.reduce(
 
 const infoSuma = (sumaNotas) => {
     console.log("La suma de notas es: ", sumaNotas);
-}
+};
+
+const promedio = sumaNotas/6;
+
+const infoPromedio = (promedio) => {
+    console.log("El promedio es: ", promedio);
+};
 
 infoSuma(sumaNotas);
+infoPromedio(promedio);
